@@ -1,0 +1,44 @@
+{
+  "name": "ssztesting",
+  "version": "1.0.0",
+  "description": "Testing SSZ Functions",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "npx ts-node composite.ts",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "SSZTesting"
+  },
+  "keywords": [
+    "ssz"
+  ],
+  "author": "scottypoi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-runtime": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@chainsafe/persistent-merkle-tree": "^0.4.1",
+    "@chainsafe/ssz": "^0.9.1",
+    "@ethereumjs/block": "^3.6.2",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "webpack-cli": "^4.9.2"
+  }
+}
